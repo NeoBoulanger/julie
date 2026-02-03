@@ -1,9 +1,10 @@
 body{
-    background-color: #ec7284;
+    background-color: rgba(255, 0, 0, 0.42);
 }
 
+
 *{
-    margin: none;
+    margin: 0;
 }
 
 
@@ -23,19 +24,43 @@ body{
 #container h1{
     font-size: 100px;
     font-family: arial;
+    color:white;
 }
 
-button{
+.oui{
+    margin-left: 40%;
+    margin-top: 30%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s ease;
+}
+
+.oui, .non {
     background-color: #c32239;
     color: white;
-    position: relative;
+    position: absolute;
     text-align: center;
     font-size: 30px;
     padding: 20px 60px;
     border-radius: 100px;
     border: none;
-    margin-left: 50%;
+}
+
+.non{
     margin-top: 30%;
+    margin-left: 60%;
     transform: translate(-50%,-50%);
-    transition: all 0.5s ease;
+}
+
+
+.hidden{
+    display: none;
+}
+
+#merci{
+    color: white;
+    position:absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
 }
